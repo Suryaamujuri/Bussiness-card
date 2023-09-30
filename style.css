@@ -1,0 +1,38 @@
+.my-img{
+    width : 150px;
+    border-radius: 10px;
+    background-color: #385651;
+    border: 3px solid #9DC5BB;
+}
+body{
+    width: 500px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px;
+   
+    
+   
+}
+.card{
+    display: flex;
+    background: #4C8E83;
+    padding: 20px;
+    border-radius: 20px;
+    transition-property: width;
+   
+    
+}
+.card:hover{
+    width: 400px;
+    transition-delay: 200s;
+    text-transform: uppercase;
+
+}
+
+.div1{
+    text-align: center;
+    padding-left: 40px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-shadow: 3px 3px 7px #9DC5BB ;
+}
